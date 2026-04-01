@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function CateringSection() {
+  const { t } = useTranslation();
   return (
     <section id="catering" className="relative w-full bg-[#f8f4fa] py-24 lg:py-32 px-6 md:px-12 overflow-hidden border-t border-[#eadaeb]/50">
       
@@ -20,10 +22,12 @@ export default function CateringSection() {
           {/* Main Title Grouping */}
           <h2 className="flex flex-col mb-8 w-full">
             <span className="font-serif text-[42px] md:text-[50px] lg:text-[54px] leading-[1.1] text-[#322e40] uppercase tracking-wide mb-2 sm:mb-4">
-              Catering &<br className="hidden md:block" /> Event Booking
+              {t('catering.title1').split('&').map((part, i, arr) => (
+                 <span key={i}>{part}{i < arr.length - 1 && <>&amp;<br className="hidden md:block" /></>}</span>
+              ))}
             </span>
             <span className="font-serif italic font-light text-[#cca9cd] lowercase text-[50px] md:text-[68px] leading-[0.8]">
-              available
+              {t('catering.title2')}
             </span>
           </h2>
           
@@ -31,7 +35,7 @@ export default function CateringSection() {
           <div className="flex items-center justify-center lg:justify-start gap-4 mb-12 w-full max-w-sm lg:max-w-none">
             <div className="h-[1px] flex-1 bg-[#cca9cd]/40 hidden sm:block" />
             <span className="font-sans font-semibold text-[11px] md:text-[13px] tracking-[0.2em] text-[#cca9cd] uppercase whitespace-normal sm:whitespace-nowrap px-4 sm:px-0">
-              Email us to customize your order.
+              {t('catering.subtitle')}
             </span>
             <div className="h-[1px] flex-1 bg-[#cca9cd]/40 hidden lg:block" />
           </div>
@@ -40,7 +44,7 @@ export default function CateringSection() {
           <button className="group relative overflow-hidden border border-[#322e40] bg-transparent text-[#322e40] rounded-sm px-14 py-4 
                              font-sans text-[15px] md:text-[16px] font-semibold tracking-wide transition-all duration-400 
                              hover:bg-[#322e40] hover:text-white hover:shadow-xl hover:-translate-y-1">
-            <span className="relative z-10 transition-colors duration-400">Contact Us</span>
+            <span className="relative z-10 transition-colors duration-400">{t('catering.button')}</span>
           </button>
         </motion.div>
 

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const items = [
   {
@@ -24,7 +25,8 @@ const items = [
   }
 ];
 
-export default function FreshItems() {
+export default function FreshItems({ onMenuClick }: { onMenuClick?: () => void }) {
+  const { t } = useTranslation();
   return (
     <section id="menu" className="relative w-full py-32 bg-white flex flex-col items-center overflow-hidden">
       
@@ -44,10 +46,10 @@ export default function FreshItems() {
         >
           <h2 className="text-4xl sm:text-5xl md:text-[56px] text-[#322e40] tracking-wide relative inline-block">
             <span className="font-sans font-semibold uppercase text-[10px] tracking-[0.4em] block mb-8 text-[#8e8d93]">
-              From the kitchen
+              {t('fresh.subtitle')}
             </span>
-            <span className="font-serif">All Items Made </span>
-            <span className="font-serif italic font-light drop-shadow-sm">Fresh Daily</span>
+            <span className="font-serif">{t('fresh.titlePart1')}</span>
+            <span className="font-serif italic font-light drop-shadow-sm">{t('fresh.titlePart2')}</span>
             
             {/* Elegant curvy underline decoration matching the curvy hero text vibe */}
             <svg className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-32 text-[#eadaeb] opacity-80" viewBox="0 0 100 20" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -58,7 +60,7 @@ export default function FreshItems() {
 
         {/* Expanding Accordion Gallery (Pure CSS Flex Animation) */}
         <div className="flex flex-col md:flex-row gap-6 lg:gap-8 justify-center w-full h-auto md:h-[600px] items-stretch group/container mt-8">
-          {items.map((item) => (
+          {items.map((item, index) => (
             <motion.div 
               key={item.id}
               initial={{ opacity: 0, y: 40 }}
@@ -97,7 +99,7 @@ export default function FreshItems() {
                 <h3 className="font-serif text-[24px] lg:text-[28px] text-[#322e40] text-center leading-[1.25] 
                                transition-colors duration-300 drop-shadow-sm
                                group-hover/card:text-[#a5a3a8]">
-                  {item.title}
+                  {t(`fresh.item${index}` as any)}
                 </h3>
               </div>
             </motion.div>
@@ -112,8 +114,11 @@ export default function FreshItems() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="w-full flex justify-center mt-10 md:mt-16"
         >
-          <button className="group relative overflow-hidden bg-[#322e40] text-white rounded-sm px-14 py-4 font-sans text-[18px] md:text-[20px] font-medium tracking-wide transition-all duration-300 hover:shadow-[0_15px_30px_-10px_rgba(50,46,64,0.4)] hover:-translate-y-1">
-            <span className="relative z-10">See Menu</span>
+          <button 
+            onClick={onMenuClick}
+            className="group relative overflow-hidden bg-[#322e40] text-white rounded-sm px-14 py-4 font-sans text-[18px] md:text-[20px] font-medium tracking-wide transition-all duration-300 hover:shadow-[0_15px_30px_-10px_rgba(50,46,64,0.4)] hover:-translate-y-1 block md:inline-block cursor-pointer"
+          >
+            <span className="relative z-10">{t('fresh.button')}</span>
             <div className="absolute inset-0 h-full w-full bg-[#f8f4fa] opacity-0 transition-opacity duration-300 group-hover:opacity-15 z-0"></div>
           </button>
         </motion.div>

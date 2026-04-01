@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "story": "Notre Histoire",
+    "catering": "Traiteur",
+    "contacts": "Contacts",
+    "orderOnline": "Commander en Ligne"
+  },
+  "hero": {
+    "tartName": "TARTE AU CITRON",
+    "tartPrice": "3,50 $",
+    "tartDesc": "Une croûte beurrée classique remplie d'une crème au citron onctueuse, cuite à la perfection pour un équilibre idéal entre douceur et acidité.",
+    "yogurtName": "YAOURT AUX FRAMBOISES",
+    "yogurtPrice": "4,50 $",
+    "yogurtDesc": "Écorces de yaourt aux framboises à 3 ingrédients – assez saines pour grignoter pendant la journée, et assez délicieuses pour être servies au dessert. C'est la gourmandise ultime sans culpabilité, faite pour plaire aux enfants comme aux adultes."
+  },
+  "fresh": {
+    "subtitle": "De la cuisine",
+    "titlePart1": "Tous les articles font ",
+    "titlePart2": "Frais au quotidien",
+    "button": "Voir le Menu",
+    "item0": "Petits pains asiatiques et Pâtisseries occidentales",
+    "item1": "Thé aux perles et Boissons chaudes",
+    "item2": "Articles de saison"
+  },
+  "gift": {
+    "badge": "Maintenant Disponible",
+    "subtitle": "Partagez la douceur",
+    "titlePart1": "Offrez le don du",
+    "titlePart2": "Réconfort",
+    "titlePart3": "Artisanal",
+    "desc1": "Que ce soit pour un anniversaire, une célébration ou un simple \"je pense à toi\", une carte-cadeau From Scratch est le moyen idéal de partager la chaleur de nos fours avec les personnes que vous aimez.",
+    "desc2": "Échangeable contre l'une de nos pâtisseries artisanales fraîches, thés aux perles signature ou spécialités saisonnières en magasin. Offrez à quelqu'un de spécial un moment de délice, cuit frais tous les jours.",
+    "button": "Acheter Carte-Cadeau"
+  },
+  "story": {
+    "titlePart1": "Fait Maison",
+    "titlePart2": "Toujours",
+    "p1": "Le 15 avril 2024, From Scratch Bakeshop & Boba a ouvert ses portes en tant que boulangerie d'inspiration asiatique, créée pour apporter ces saveurs réconfortantes dans le Nord. Tout ce que nous préparons est fait de A à Z dans notre cuisine, en utilisant des ingrédients soigneusement sélectionnés et des techniques ancestrales — parce que dans un endroit où les saisons sont longues et les journées froides, le soin et la patience ont leur importance.",
+    "p2": "Ici, la pâtisserie est plus que de la nourriture. C'est la chaleur d'une matinée d'hiver, un goût familier après une longue journée, et un petit moment de réconfort partagé avec les autres. From Scratch est notre façon de contribuer au Nord — en offrant quelque chose de vrai, fait à la main et réconfortant, un petit pain et une pâtisserie à la fois.",
+    "button": "Commander en Ligne"
+  },
+  "catering": {
+    "title1": "Service Traiteur & Réservation d'Événements",
+    "title2": "disponible",
+    "subtitle": "Envoyez-nous un email pour personnaliser votre commande.",
+    "button": "Contactez-nous"
+  },
+  "visit": {
+    "title": "Visitez-nous",
+    "mall": "Centre Square Mall",
+    "address1": "4907 Franklin Ave",
+    "address2": "Yellowknife, Territoires du Nord-Ouest",
+    "address3": "X1A 3R6",
+    "button": "Itinéraire",
+    "hoursTitle": "Heures d'ouverture",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche"
+  },
+  "footer": {
+    "title1": "Restez",
+    "title2": "Doux.",
+    "desc": "Rejoignez notre liste pour recevoir des mises à jour prioritaires sur les articles de saison, les sorties de menus secrets et les événements traiteurs locaux.",
+    "placeholder": "Entrez votre adresse email...",
+    "visit": "Visitez-nous",
+    "contact": "Contact",
+    "follow": "Suivre",
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
+  }
+}

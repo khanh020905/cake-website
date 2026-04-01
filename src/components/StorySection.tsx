@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function StorySection() {
+  const { t } = useTranslation();
   return (
     <section id="story" className="relative w-full flex flex-col lg:flex-row overflow-hidden bg-white mt-12 pb-24">
       
@@ -52,11 +54,11 @@ export default function StorySection() {
           {/* Elegant Titles */}
           <h2 className="flex flex-col items-center mb-8">
             <span className="font-serif text-[36px] md:text-[44px] tracking-[0.1em] text-[#322e40] leading-none mb-3 uppercase">
-              From Scratch
+              {t('story.titlePart1')}
             </span>
             {/* The beautiful cursive accent mimicking the screenshot but using our luxe style */}
             <span className="font-serif italic font-light text-[32px] md:text-[36px] text-[#cca9cd] capitalize">
-              Always
+              {t('story.titlePart2')}
             </span>
           </h2>
 
@@ -66,10 +68,10 @@ export default function StorySection() {
           {/* Emotive Copywriting */}
           <div className="font-sans font-light text-[#676373] text-[14px] md:text-[15px] leading-[1.8] space-y-6 mb-12 text-justify md:text-center text-justify-last-center">
             <p>
-              On April 15, 2024, From Scratch Bakeshop & Boba opened as an Asian-inspired bakery, created to bring those comforting flavours to the North. Everything we make is prepared from scratch in our kitchen, using thoughtfully sourced ingredients and time-honoured techniques—because in a place where seasons are long and days can be cold, care and patience matter.
+              {t('story.p1')}
             </p>
             <p>
-              Here, baking is more than food. It's warmth on a winter morning, a familiar taste after a long day, and a small moment of comfort shared with others. From Scratch is our way of contributing to the North—offering something honest, handmade, and comforting, one bun and one pastry at a time.
+              {t('story.p2')}
             </p>
           </div>
 
@@ -78,7 +80,7 @@ export default function StorySection() {
                              font-sans text-[14px] font-semibold tracking-widest uppercase transition-all duration-300 
                              hover:bg-[#322e40] hover:text-white hover:shadow-[0_15px_30px_-10px_rgba(50,46,64,0.4)] hover:-translate-y-1">
             <span className="relative z-10 flex items-center justify-center gap-2">
-              Order Online
+              {t('story.button')}
               <svg className="w-4 h-4 opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300" 
                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />

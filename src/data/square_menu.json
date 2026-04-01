@@ -1,0 +1,186 @@
+{
+  "items": [
+    {
+      "name": "Sausage Bread",
+      "price": "CAD$7.00",
+      "image_url": "https://149064994.cdn6.editmysite.com/uploads/1/4/9/0/149064994/U2T62ME3J7EWKEUNRZGQQHW3.jpeg?width=160&optimize=medium",
+      "description": "",
+      "localImage": "/extract_img/Sausage_Bread.jpg"
+    },
+    {
+      "name": "Brown Sugar Oat Latte",
+      "price": "CAD$6.00 - CAD$7.50",
+      "image_url": "https://149064994.cdn6.editmysite.com/uploads/1/4/9/0/149064994/JSJLS3WFIBUNJTEJOBD4V44L.png?width=160&optimize=medium",
+      "description": "",
+      "localImage": "/extract_img/Brown_Sugar_Oat_Latte.jpg"
+    },
+    {
+      "name": "Earl Grey Milk Tea with Taro Foam",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Donut - Cinnamon",
+      "price": "CAD$3.50",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Croissant - Chocolate",
+      "price": "CAD$5.25",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Salted Butter Roll Bread",
+      "price": "CAD$3.75",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Donut - Chocolate",
+      "price": "CAD$4.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Custard Bread",
+      "price": "CAD$4.75",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Croissant - French Almond",
+      "price": "CAD$5.75",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Donut - Earl Grey Lemon",
+      "price": "CAD$4.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Garlic Cream cheese Bun",
+      "price": "CAD$5.75",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Croissant",
+      "price": "CAD$4.75",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Peach danish",
+      "price": "CAD$6.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Cinnamon bun",
+      "price": "CAD$5.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Strawberry Fresh Milk",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Vietnamese Salted Iced Coffee",
+      "price": "CAD$7.50",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Vietnamese Iced Coffee",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Matcha Latte Cheese/Milk Foam",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Grapefruit Green Tea",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Thai Boba Milk Tea",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Taro Boba Milk Tea",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Green Apple Jasmine Tea",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Brown Sugar Boba Milk Tea",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Mango Boba Fresh Milk",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Black Tea Cheese/Milk Foam",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    },
+    {
+      "name": "Brown Sugar Boba Fresh Milk",
+      "price": "CAD$6.50 - CAD$8.00",
+      "image_url": "",
+      "description": "",
+      "localImage": ""
+    }
+  ]
+}

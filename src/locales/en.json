@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "story": "Our Story",
+    "catering": "Catering",
+    "contacts": "Contacts",
+    "orderOnline": "Order Online"
+  },
+  "hero": {
+    "tartName": "CITRUS TART",
+    "tartPrice": "$3.5",
+    "tartDesc": "A classic buttery crust filled with a smooth lemon custard, baked to perfection for an ideal balance of sweetness and tartness.",
+    "yogurtName": "RASPBERRY YOGURT",
+    "yogurtPrice": "$4.5",
+    "yogurtDesc": "3-Ingredient raspberry yogurt barks – healthy enough for snacking around during the day, and delicious enough to be served as dessert. This is the ultimate guilt-free treat made to please both kids and grown-ups."
+  },
+  "fresh": {
+    "subtitle": "From the kitchen",
+    "titlePart1": "All Items Made ",
+    "titlePart2": "Fresh Daily",
+    "button": "See Menu",
+    "item0": "Asian Buns & Western Pastries",
+    "item1": "Bubble Tea & Hot Drinks",
+    "item2": "Seasonal Items"
+  },
+  "gift": {
+    "badge": "Now Available",
+    "subtitle": "Share the Sweetness",
+    "titlePart1": "Give the Gift of",
+    "titlePart2": "Handmade",
+    "titlePart3": "Comfort",
+    "desc1": "Whether it's a birthday, an anniversary, or a simple \"thinking of you\", a From Scratch gift card is the perfect way to share the warmth of our ovens with the people you care about.",
+    "desc2": "Redeemable for any of our fresh artisan pastries, signature boba teas, or seasonal specials in-store. Treat someone special to a moment of delight, baked fresh daily.",
+    "button": "Purchase Gift Card"
+  },
+  "story": {
+    "titlePart1": "From Scratch",
+    "titlePart2": "Always",
+    "p1": "On April 15, 2024, From Scratch Bakeshop & Boba opened as an Asian-inspired bakery, created to bring those comforting flavours to the North. Everything we make is prepared from scratch in our kitchen, using thoughtfully sourced ingredients and time-honoured techniques—because in a place where seasons are long and days can be cold, care and patience matter.",
+    "p2": "Here, baking is more than food. It's warmth on a winter morning, a familiar taste after a long day, and a small moment of comfort shared with others. From Scratch is our way of contributing to the North—offering something honest, handmade, and comforting, one bun and one pastry at a time.",
+    "button": "Order Online"
+  },
+  "catering": {
+    "title1": "Catering & Event Booking",
+    "title2": "available",
+    "subtitle": "Email us to customize your order.",
+    "button": "Contact Us"
+  },
+  "visit": {
+    "title": "Visit Us",
+    "mall": "Centre Square Mall",
+    "address1": "4907 Franklin Ave",
+    "address2": "Yellowknife, Northwest Territories",
+    "address3": "X1A 3R6",
+    "button": "Get Directions",
+    "hoursTitle": "Opening Hours",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "footer": {
+    "title1": "Stay",
+    "title2": "Sweet.",
+    "desc": "Join our list to receive priority updates on seasonal items, secret menu drops, and local catering events.",
+    "placeholder": "Enter your email address...",
+    "visit": "Visit Us",
+    "contact": "Contact",
+    "follow": "Follow",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  }
+}
