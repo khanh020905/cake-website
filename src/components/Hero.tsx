@@ -81,7 +81,7 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-            className="absolute bottom-[-140px] sm:bottom-[-220px] left-[520px] sm:left-[100px] max-w-[260px]"
+            className="absolute bottom-[-140px] sm:bottom-[-140px] left-[520px] sm:left-[100px] max-w-[260px]"
           >
             <div className="font-serif text-[42px] text-[#322e40] mb-2 italic">
               {t("hero.tartPrice")}
