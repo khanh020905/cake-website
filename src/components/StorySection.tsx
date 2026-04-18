@@ -15,7 +15,7 @@ export default function StorySection() {
         className="w-full lg:w-1/2 min-h-[500px] lg:min-h-[700px] xl:min-h-[800px] relative"
       >
         <img 
-          src="/baker.png" 
+          src="/story-baker.jpg" 
           alt="Artisan Baker" 
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -34,7 +34,7 @@ export default function StorySection() {
         {/* Background Bakery Ambience Image */}
         <div className="absolute inset-0 w-full h-full">
           <img 
-            src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=1200&auto=format&fit=crop" 
+            src="/story-bg.jpg" 
             alt="Bakery Display" 
             className="w-full h-full object-cover opacity-80"
           />

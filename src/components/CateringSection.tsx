@@ -61,7 +61,7 @@ export default function CateringSection() {
           >
             <div className="absolute inset-0 bg-black/5 transition-colors duration-500 hover:bg-transparent z-10 pointer-events-none" />
             <img 
-              src="/catered-pastries.png" 
+              src="/catering-donuts.jpg" 
               alt="Catering Pastry Box Assortment" 
               className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
             />
@@ -76,7 +76,7 @@ export default function CateringSection() {
             className="absolute bottom-0 left-0 w-[60%] aspect-square rounded-[8px] md:rounded-[12px] overflow-hidden shadow-[0_25px_50px_-15px_rgba(50,46,64,0.35)] border-[8px] md:border-[16px] border-[#f8f4fa] z-20 bg-white group cursor-pointer"
           >
             <img 
-              src="/kraft-boxes.png" 
+              src="/catering-boxes.jpg" 
               alt="Stacked Kraft Catering Boxes" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
             />

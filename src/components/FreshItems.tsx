@@ -1,31 +1,29 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const items = [
   {
     id: 1,
     title: "Asian Buns & Western Pastries",
-    // Stunning high-res editorial photo of fresh crusty buns/bread
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop",
+    image: "/fresh-1.jpg",
     delay: 0.2
   },
   {
     id: 2,
     title: "Bubble Tea & Hot Drinks",
-    // Custom generated high-end editorial Boba Tea photography
-    image: "/boba-tea.png",
+    image: "/fresh-2.jpg",
     delay: 0.4
   },
   {
     id: 3,
     title: "Seasonal Items",
-    // Elegant artistic shot of a delicate pastry/tart
-    image: "https://images.unsplash.com/photo-1481391319762-47dff72954d9?q=80&w=800&auto=format&fit=crop",
+    image: "/fresh-3.jpg",
     delay: 0.6
   }
 ];
 
-export default function FreshItems({ onMenuClick }: { onMenuClick?: () => void }) {
+export default function FreshItems() {
   const { t } = useTranslation();
   return (
     <section id="menu" className="relative w-full py-32 bg-white flex flex-col items-center overflow-hidden">
@@ -114,13 +112,13 @@ export default function FreshItems({ onMenuClick }: { onMenuClick?: () => void }
           transition={{ duration: 0.8, delay: 0.4 }}
           className="w-full flex justify-center mt-10 md:mt-16"
         >
-          <button 
-            onClick={onMenuClick}
-            className="group relative overflow-hidden bg-[#322e40] text-white rounded-sm px-14 py-4 font-sans text-[18px] md:text-[20px] font-medium tracking-wide transition-all duration-300 hover:shadow-[0_15px_30px_-10px_rgba(50,46,64,0.4)] hover:-translate-y-1 block md:inline-block cursor-pointer"
+          <Link 
+            to="/menu"
+            className="group relative overflow-hidden bg-[#322e40] text-white rounded-sm px-14 py-4 font-sans text-[18px] md:text-[20px] font-medium tracking-wide transition-all duration-300 hover:shadow-[0_15px_30px_-10px_rgba(50,46,64,0.4)] hover:-translate-y-1 block md:inline-block cursor-pointer text-center"
           >
             <span className="relative z-10">{t('fresh.button')}</span>
             <div className="absolute inset-0 h-full w-full bg-[#f8f4fa] opacity-0 transition-opacity duration-300 group-hover:opacity-15 z-0"></div>
-          </button>
+          </Link>
         </motion.div>
 
       </div>

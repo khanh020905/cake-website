@@ -54,7 +54,7 @@ export default function Hero() {
                 fontWeight: 300,
               }}
             >
-              <textPath href="#textCircleLeft" startOffset="20%">
+              <textPath href="#textCircleLeft" startOffset="15%">
                 {t("hero.tartName")}
               </textPath>
             </text>
@@ -68,8 +68,8 @@ export default function Hero() {
               className="w-[360px] h-[360px] rounded-full overflow-hidden shadow-2xl"
             >
               <img
-                src="/citrus-tart.png"
-                alt="Citrus Tart"
+                src="/donut-final.png"
+                alt="Donut"
                 className="w-full h-full object-cover"
               />
             </motion.div>
@@ -118,7 +118,7 @@ export default function Hero() {
                 fontWeight: 300,
               }}
             >
-              <textPath href="#textCircleRight" startOffset="22%">
+              <textPath href="#textCircleRight" startOffset="20%">
                 {t("hero.yogurtName")}
               </textPath>
             </text>
@@ -132,8 +132,8 @@ export default function Hero() {
               className="w-[400px] h-[400px] rounded-full overflow-hidden shadow-2xl"
             >
               <img
-                src="/raspberry-yogurt.png"
-                alt="Raspberry Yogurt"
+                src="/milk-tea.png"
+                alt="Milk Tea"
                 className="w-full h-full object-cover"
               />
             </motion.div>

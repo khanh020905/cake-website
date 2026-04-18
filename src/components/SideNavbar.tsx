@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export default function SideNavbar() {
   return (
@@ -34,12 +35,12 @@ export default function SideNavbar() {
         <div className="flex flex-col items-center gap-3"
           style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}
         >
-          <a
-            href="#menu"
+          <Link
+            to="/menu"
             className="font-sans text-[11px] font-bold tracking-[0.25em] text-black uppercase hover:text-gray-600 transition-colors"
           >
             Menu
-          </a>
+          </Link>
           <span className="w-1.5 h-1.5 rounded-full bg-black block" />
         </div>
 

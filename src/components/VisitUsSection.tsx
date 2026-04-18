@@ -22,12 +22,11 @@ L.Map.addInitHook('addHandler', 'gestureHandling', GestureHandling);
 
 // Custom map pin icon using our theme color
 const customIcon = new L.Icon({
-  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
-  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41]
+  iconUrl: 'https://ykfromscratch.ca/wp-content/uploads/2025/08/cropped-From-scratch-Bakeshop-Logo.png',
+  iconSize: [56, 56],
+  iconAnchor: [28, 28],
+  popupAnchor: [0, -28],
+  className: 'rounded-full shadow-lg border-2 border-white bg-white'
 });
 
 // Component to dynamically enable gesture handling on the map instance
@@ -77,7 +76,17 @@ export default function VisitUsSection() {
               maxZoom={20}
             />
             {/* Custom Marker */}
-            <Marker position={position} icon={customIcon}>
+            <Marker 
+              position={position} 
+              icon={customIcon}
+              eventHandlers={{
+                click: (e) => {
+                  const map = e.target._map;
+                  // Use flyTo for a gorgeous, parabolic cinematic zoom that takes longer
+                  map.flyTo(position, 19, { animate: true, duration: 2.5 });
+                }
+              }}
+            >
               <Popup className="font-sans font-medium text-[#322e40]">
                 From Scratch Bakeshop & Boba
               </Popup>

@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
-export default function Navbar({ onMenuClick }: { onMenuClick?: () => void }) {
+export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { scrollY } = useScroll();
@@ -21,6 +22,13 @@ export default function Navbar({ onMenuClick }: { onMenuClick?: () => void }) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const navItems = [
+    { name: t("nav.menu"), href: "/menu", isRoute: true },
+    { name: t("nav.story"), href: "#story" },
+    { name: t("nav.catering"), href: "#catering" },
+    { name: t("nav.contacts"), href: "#contacts" }
+  ];
+
   return (
     <motion.header 
       style={{ height: navHeight }}
@@ -37,40 +45,42 @@ export default function Navbar({ onMenuClick }: { onMenuClick?: () => void }) {
         
         {/* Left: Brand Logo */}
         <div className="flex-shrink-0 flex items-center">
-          <motion.div 
-            style={{ scale: logoScale }}
-            className="w-24 md:w-24 h-24 md:h-24 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center p-1.5 shadow-sm border border-[#eadaeb]/50 cursor-pointer origin-left"
-          >
-            <img 
-              src="https://ykfromscratch.ca/wp-content/uploads/2025/08/cropped-From-scratch-Bakeshop-Logo.png" 
-              alt="From Scratch Logo" 
-              className="w-full h-full object-contain"
-            />
-          </motion.div>
+          <Link to="/">
+            <motion.div 
+              style={{ scale: logoScale }}
+              className="w-24 md:w-24 h-24 md:h-24 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center p-1.5 shadow-sm border border-[#eadaeb]/50 cursor-pointer origin-left"
+            >
+              <img 
+                src="https://ykfromscratch.ca/wp-content/uploads/2025/08/cropped-From-scratch-Bakeshop-Logo.png" 
+                alt="From Scratch Logo" 
+                className="w-full h-full object-contain"
+              />
+            </motion.div>
+          </Link>
         </div>
 
         {/* Center: Desktop Navigation Links */}
         <nav className="hidden md:flex items-center gap-10 absolute left-1/2 -translate-x-1/2">
-          {[
-            { name: t("nav.menu"), href: "#menu", onClick: onMenuClick },
-            { name: t("nav.story"), href: "#story" },
-            { name: t("nav.catering"), href: "#catering" },
-            { name: t("nav.contacts"), href: "#contacts" }
-          ].map((item) => (
-            <a
-              key={item.name}
-              href={item.href}
-              onClick={item.onClick ? (e) => {
-                e.preventDefault();
-                item.onClick!();
-              } : undefined}
-              className="font-sans text-[12px] font-semibold tracking-[0.2em] text-[#322e40] uppercase 
-                         hover:text-[#cca9cd] transition-colors relative group py-2"
-            >
-              {item.name}
-              {/* Animated underline effect */}
-              <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#cca9cd] transition-all duration-300 group-hover:w-full" />
-            </a>
+          {navItems.map((item) => (
+            item.isRoute ? (
+              <Link
+                key={item.name}
+                to={item.href}
+                className="font-sans text-[12px] font-semibold tracking-[0.2em] text-[#322e40] uppercase hover:text-[#cca9cd] transition-colors relative group py-2"
+              >
+                {item.name}
+                <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#cca9cd] transition-all duration-300 group-hover:w-full" />
+              </Link>
+            ) : (
+              <a
+                key={item.name}
+                href={item.href}
+                className="font-sans text-[12px] font-semibold tracking-[0.2em] text-[#322e40] uppercase hover:text-[#cca9cd] transition-colors relative group py-2"
+              >
+                {item.name}
+                <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#cca9cd] transition-all duration-300 group-hover:w-full" />
+              </a>
+            )
           ))}
         </nav>
 
@@ -127,26 +137,26 @@ export default function Navbar({ onMenuClick }: { onMenuClick?: () => void }) {
           animate={{ opacity: 1, y: 0 }}
           className="absolute top-full left-0 w-full bg-white shadow-xl shadow-[#322e40]/10 border-t border-[#eadaeb]/50 py-8 px-6 md:hidden flex flex-col gap-6 items-center"
         >
-          {[
-            { name: t("nav.menu"), href: "#menu", onClick: onMenuClick },
-            { name: t("nav.story"), href: "#story" },
-            { name: t("nav.catering"), href: "#catering" },
-            { name: t("nav.contacts"), href: "#contacts" }
-          ].map((item) => (
-            <a
-              key={item.name}
-              href={item.href}
-              onClick={(e) => {
-                if (item.onClick) {
-                  e.preventDefault();
-                  item.onClick();
-                }
-                setMobileMenuOpen(false);
-              }}
-              className="font-sans text-[13px] font-semibold tracking-[0.2em] text-[#322e40] uppercase hover:text-[#cca9cd] transition-colors"
-            >
-              {item.name}
-            </a>
+          {navItems.map((item) => (
+            item.isRoute ? (
+              <Link
+                key={item.name}
+                to={item.href}
+                onClick={() => setMobileMenuOpen(false)}
+                className="font-sans text-[13px] font-semibold tracking-[0.2em] text-[#322e40] uppercase hover:text-[#cca9cd] transition-colors"
+              >
+                {item.name}
+              </Link>
+            ) : (
+              <a
+                key={item.name}
+                href={item.href}
+                onClick={() => setMobileMenuOpen(false)}
+                className="font-sans text-[13px] font-semibold tracking-[0.2em] text-[#322e40] uppercase hover:text-[#cca9cd] transition-colors"
+              >
+                {item.name}
+              </a>
+            )
           ))}
           <div className="w-12 h-[1px] bg-[#eadaeb] my-2" />
           <a href="https://instagram.com" target="_blank" rel="noreferrer" className="text-[#322e40] hover:text-[#cca9cd] transition-colors">

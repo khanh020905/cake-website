@@ -6,7 +6,7 @@
       "category": "Asian Buns",
       "description": "A beloved staple of Japanese bakeries, kare pan is filled with rich, savory Japanese curry—slow-cooked with spices, onions, and vegetables for deep, comforting flavor. Wrapped in soft bread and baked until golden, it offers a warm, satisfying balance of gentle spice and fluffy texture.",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/71324045-B1B4-4D14-802B-55BAD059CA26-2.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/71324045-B1B4-4D14-802B-55BAD059CA26-2.jpg"
+      "localImage": "/menu-imgs/item_0.webp"
     },
     {
       "name": "Korean Sausage Bread",
@@ -14,7 +14,7 @@
       "category": "Asian Buns",
       "description": "A juicy sausage is wrapped in soft, pillowy milk bread and baked fresh, then topped with sweet corn, creamy mayo, and a sprinkle of dried oregano flakes for the perfect balance of savory and comforting flavors.",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_0858.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_0858.jpg"
+      "localImage": "/menu-imgs/item_1.webp"
     },
     {
       "name": "Custard Cream Bun",
@@ -22,7 +22,7 @@
       "category": "Asian Buns",
       "description": "A nostalgic bakery staple in Japan. Soft milk bread is filled with smooth vanilla custard, offering a gentle sweetness and creamy center that has comforted generations of bakery visitors.",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_7288.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_7288.jpg"
+      "localImage": "/menu-imgs/item_2.webp"
     },
     {
       "name": "Korean Cream Cheese Garlic",
@@ -30,7 +30,7 @@
       "category": "Asian Buns",
       "description": "Bun A signature Korean bakery favorite, bread cut into wedges, filled with lightly sweet cream cheese, and drenched in aromatic garlic butter. Baked until crisp outside and irresistibly soft and creamy inside.",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_6313.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_6313.jpg"
+      "localImage": "/menu-imgs/item_3.webp"
     },
     {
       "name": "Japanese Milk Bread",
@@ -38,7 +38,7 @@
       "category": "Asian Buns",
       "description": "Known for its cloud-soft texture and delicate sweetness, Japanese milk bread is made using a traditional technique that creates an exceptionally tender crumb. Light, airy, and comforting, it is a daily staple in bakeries across Japan.",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_0525.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_0525.jpg"
+      "localImage": "/menu-imgs/item_4.webp"
     },
     {
       "name": "Salt Butter Roll",
@@ -46,7 +46,7 @@
       "category": "Asian Buns",
       "description": "A modern Japanese favorite, shio pan is shaped around a piece of butter that melts as it bakes, creating a crisp, golden base and soft interior. Finished with a touch of salt, it highlights the pure flavor of fresh bread and butter.",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_9101.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_9101.jpg"
+      "localImage": "/menu-imgs/item_5.webp"
     },
     {
       "name": "Almond Croisaint",
@@ -54,7 +54,7 @@
       "category": "Western Pastries",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_6856-1.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_6856-1.jpg"
+      "localImage": "/menu-imgs/item_6.webp"
     },
     {
       "name": "Chocolate Croissant",
@@ -62,7 +62,7 @@
       "category": "Western Pastries",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_6919-1.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_6919-1.jpg"
+      "localImage": "/menu-imgs/item_7.webp"
     },
     {
       "name": "Peach Danish",
@@ -70,7 +70,7 @@
       "category": "Western Pastries",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_7005-1.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_7005-1.jpg"
+      "localImage": "/menu-imgs/item_8.webp"
     },
     {
       "name": "Ham & Cheese Croissant",
@@ -78,7 +78,7 @@
       "category": "Western Pastries",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/C87F8EEF-2793-44FB-B000-8B0B8203966C-2.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/C87F8EEF-2793-44FB-B000-8B0B8203966C-2.jpg"
+      "localImage": "/menu-imgs/item_9.webp"
     },
     {
       "name": "Plain Croissant",
@@ -86,7 +86,7 @@
       "category": "Western Pastries",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_3306.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_3306.jpg"
+      "localImage": "/menu-imgs/item_10.webp"
     },
     {
       "name": "Cinnamon Bun",
@@ -94,7 +94,7 @@
       "category": "Western Pastries",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_8329.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_8329.jpg"
+      "localImage": "/menu-imgs/item_11.webp"
     },
     {
       "name": "*New* Earl-grey Tea w Taro Milk Foam",
@@ -102,7 +102,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/925c4fae-5df7-4cf3-9bb3-90769f5f2a2c-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/925c4fae-5df7-4cf3-9bb3-90769f5f2a2c-retina-large.avif"
+      "localImage": "/menu-imgs/item_12.webp"
     },
     {
       "name": "Brown Sugar Milk Tea",
@@ -110,7 +110,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/1cabd0f9-4034-462e-a630-d4352d242977-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/1cabd0f9-4034-462e-a630-d4352d242977-retina-large.avif"
+      "localImage": "/menu-imgs/item_13.webp"
     },
     {
       "name": "Ice Brown Sugar Oat/Soy latte",
@@ -118,7 +118,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/3ea4b8c9-492e-4783-9269-d0448a92ff69-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/3ea4b8c9-492e-4783-9269-d0448a92ff69-retina-large.avif"
+      "localImage": "/menu-imgs/item_14.webp"
     },
     {
       "name": "Matcha Oat/Soy Latte",
@@ -126,7 +126,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/afdb2e33-197c-4985-aaa0-c063ef9ad23a-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/afdb2e33-197c-4985-aaa0-c063ef9ad23a-retina-large.avif"
+      "localImage": "/menu-imgs/item_15.webp"
     },
     {
       "name": "Mango Fresh Milk",
@@ -134,7 +134,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/f0a953fb-d381-454c-a4b4-6b5eb5000255-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/f0a953fb-d381-454c-a4b4-6b5eb5000255-retina-large.avif"
+      "localImage": "/menu-imgs/item_16.webp"
     },
     {
       "name": "Brown Sugar Fresh Milk",
@@ -142,7 +142,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/8c075c55-8b1d-4a40-8c7b-e40b0bcd09dd-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/8c075c55-8b1d-4a40-8c7b-e40b0bcd09dd-retina-large.avif"
+      "localImage": "/menu-imgs/item_17.webp"
     },
     {
       "name": "Taro Milk Tea",
@@ -150,7 +150,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/fe30b8ab-d40c-4db5-a087-10971bc77c4a-retina-large.webp",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/fe30b8ab-d40c-4db5-a087-10971bc77c4a-retina-large.webp"
+      "localImage": "/menu-imgs/item_18.webp"
     },
     {
       "name": "Vietnamese Ice Coffee",
@@ -158,7 +158,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/6b48fed7-6d1d-466a-b458-b1591dddbc3a-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/6b48fed7-6d1d-466a-b458-b1591dddbc3a-retina-large.avif"
+      "localImage": "/menu-imgs/item_19.webp"
     },
     {
       "name": "Sated Vietnamese Ice Coffee",
@@ -166,7 +166,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/350fe40a-8dbf-4dca-96ab-b40ee4f658ff-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/350fe40a-8dbf-4dca-96ab-b40ee4f658ff-retina-large.avif"
+      "localImage": "/menu-imgs/item_20.webp"
     },
     {
       "name": "Black Tea w Milk/Cheese Foam",
@@ -174,7 +174,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/a1ba80fd-3a52-4997-b0a4-c3a64aaa93ad-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/a1ba80fd-3a52-4997-b0a4-c3a64aaa93ad-retina-large.avif"
+      "localImage": "/menu-imgs/item_21.webp"
     },
     {
       "name": "Matcha Latte",
@@ -182,7 +182,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/855e3e96-9d2d-487d-94c3-751874860e17-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/855e3e96-9d2d-487d-94c3-751874860e17-retina-large.avif"
+      "localImage": "/menu-imgs/item_22.webp"
     },
     {
       "name": "Grapefruit Jasmin Tea",
@@ -190,7 +190,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/17ce9096-76ed-4ce5-8288-30e17b0a07cd-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/17ce9096-76ed-4ce5-8288-30e17b0a07cd-retina-large.avif"
+      "localImage": "/menu-imgs/item_23.webp"
     },
     {
       "name": "Strawberry Fresh Milk",
@@ -198,7 +198,7 @@
       "category": "Bubble Milk Tea",
       "description": "",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/7b9fdd16-8a7b-4125-96fd-920b80a028f5-retina-large.avif",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/7b9fdd16-8a7b-4125-96fd-920b80a028f5-retina-large.avif"
+      "localImage": "/menu-imgs/item_24.webp"
     },
     {
       "name": "Japanese Donuts",
@@ -206,7 +206,7 @@
       "category": "Seasonal Items",
       "description": "Light, chewy Japanese-style donuts with a delicate crisp outside and a soft, bouncy center. Made fresh and finished with a variety of glazes and toppings for a perfectly sweet treat.",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/02/From-scratch-33-1.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/02/From-scratch-33-1.jpg"
+      "localImage": "/menu-imgs/item_25.webp"
     },
     {
       "name": "Melon Pan",
@@ -214,7 +214,7 @@
       "category": "Seasonal Items",
       "description": "A Japanese Bakery Classic Named for its melon-like pattern, not its flavor, melon pan has been a staple of Japanese bakeries for generations. Each bun begins with soft milk bread, gently wrapped in a delicate cookie layer and baked until the outside forms a light, golden crisp while the inside remains cloud-soft.",
       "image_url": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_6372.jpg",
-      "localImage": "https://ykfromscratch.ca/wp-content/uploads/2026/03/IMG_6372.jpg"
+      "localImage": "/menu-imgs/item_26.webp"
     }
   ]
 }

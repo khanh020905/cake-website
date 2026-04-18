@@ -7,12 +7,12 @@
     "orderOnline": "Commander en Ligne"
   },
   "hero": {
-    "tartName": "TARTE AU CITRON",
-    "tartPrice": "3,50 $",
-    "tartDesc": "Une croûte beurrée classique remplie d'une crème au citron onctueuse, cuite à la perfection pour un équilibre idéal entre douceur et acidité.",
-    "yogurtName": "YAOURT AUX FRAMBOISES",
-    "yogurtPrice": "4,50 $",
-    "yogurtDesc": "Écorces de yaourt aux framboises à 3 ingrédients – assez saines pour grignoter pendant la journée, et assez délicieuses pour être servies au dessert. C'est la gourmandise ultime sans culpabilité, faite pour plaire aux enfants comme aux adultes."
+    "tartName": "DONUT JAPONAIS",
+    "tartPrice": "4,00 $",
+    "tartDesc": "Des beignets de style japonais légers et moelleux, avec une croûte délicatement croustillante et un cœur doux et rebondissant. Finis avec un glaçage sucré.",
+    "yogurtName": "BOBA AU SUCRE ROUX",
+    "yogurtPrice": "6,00 $",
+    "yogurtDesc": "Notre thé au lait au sucre roux artisanal signature. Un thé de qualité supérieure parfaitement infusé, mélangé avec du lait frais et des perles de tapioca chaudes et moelleuses."
   },
   "fresh": {
     "subtitle": "De la cuisine",

@@ -7,12 +7,12 @@
     "orderOnline": "Order Online"
   },
   "hero": {
-    "tartName": "CITRUS TART",
-    "tartPrice": "$3.5",
-    "tartDesc": "A classic buttery crust filled with a smooth lemon custard, baked to perfection for an ideal balance of sweetness and tartness.",
-    "yogurtName": "RASPBERRY YOGURT",
-    "yogurtPrice": "$4.5",
-    "yogurtDesc": "3-Ingredient raspberry yogurt barks – healthy enough for snacking around during the day, and delicious enough to be served as dessert. This is the ultimate guilt-free treat made to please both kids and grown-ups."
+    "tartName": "JAPANESE DONUT",
+    "tartPrice": "$4.0",
+    "tartDesc": "Light, chewy Japanese-style donuts with a delicate crisp outside and a soft, bouncy center. Finished with a sweet glaze.",
+    "yogurtName": "BROWN SUGAR BOBA",
+    "yogurtPrice": "$6.0",
+    "yogurtDesc": "Our signature handcrafted brown sugar milk tea. Perfectly steeped premium tea mixed with fresh milk and warm, chewy tapioca pearls."
   },
   "fresh": {
     "subtitle": "From the kitchen",
